@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Motor and Drive Information</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" id="stylesheet-link">
+</head>
+    <body>
+        <div class="gridGeneral">
+            <header>            
+                <!--<div class="mode-toggle">
+                    <button id="darkModeToggle">Cambiar a Modo Oscuro</button>
+                </div>-->
+                <div class="logo">
+                    <img src="assets/images/Logo_MOA.png" alt="">
+                </div>
+                <!--<div class="home">
+                    <a href="../index.html" style="color: #205E61; text-decoration: none;"> <em>Inicio</em> </a>
+                </div>-->                
+            </header>
+
+            <main>
+                <section class="busqueda">
+                    <div class="buscarProd">
+                        <input id="inputBusqueda" placeholder="Buscar TAG" type="text" value="">
+                        <ul id="resultados"></ul>    
+                    </div>
+
+                    <button id="filtrarButton">Filtrar</button>
+                    
+
+
+
+
+                    <!-- Dropdowns para Sector and Tipo equipos -->
+                    <div class="dropdown-container">
+
+                        <label for="tipoEquiposDropdown">Tipo equipos:</label>
+                        <select id="tipoEquiposDropdown">
+                            <option value=""></option>
+                            <option value="motores">Motores</option>
+                            <option value="instrumentos">Instrumentos</option>
+                        </select>
+
+                        <label for="sectorDropdown">Sector:</label>                        
+                        <select id="sectorDropdown">
+                            <option value="Todos">Todos</option>
+                            <option value="Línea 1">Linea 1</option>
+                            <option value="Línea 2">Línea 2</option>
+                            <option value="Línea 3 Extracción">Línea 3 Extracción</option>
+                            <option value="L3A" >Línea 3A Preparación</option>
+                            <option value="L3B">Línea 3B Preparación</option>
+                            <option value="L3AB">Línea 3AB Preparación</option>
+                            <option value="Caldera 2">Caldera 2</option>
+                            <option value="Caldera 3">Caldera 3</option>
+                            <option value="Caldera 4">Caldera 4</option>
+                            <option value="Caldera Comunes">Caldera Comunes</option>
+                            <option value="Energía">Energía</option>
+                            <option value="Fermentación">Fermentación</option>
+                            <option value="Logística">Logística</option>
+                            <option value="Planta de Agua">Planta de Agua</option>
+                            <option value="Planta de Ósmosis">Planta de Ósmosis</option>
+                            <option value="Puerto">Puerto</option>
+                            <option value="Storage">Storage</option>
+                        </select>
+                        
+                        
+
+                        <label for="EquiposDropdown">Tipo equipos:</label>
+                        <select id="EquiposDropdown">
+                            <option value=""></option>
+                        </select>
+                    </div>
+
+                        <button id="searchButton">Buscar</button>
+                    
+                </section>
+
+                
+
+                <section class="info">
+                    <div class="intro">
+                        <h1>Información Motores e Instrumentos - Mantenimiento Eléctrico</h1>
+                        <div id="app"></div>
+                    </div>
+                    
+                
+                    <!-- Table for motor and drive information 
+                    <table id="motorTable">
+                        <tr>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>-</th>
+                            <th>-</th>
+                        </tr>
+                    </table>-->
+
+                    
+
+                    <!--<input type="file" id="fileInput">
+                    <div id="output"></div>-->
+                    
+                    
+                    <div id="datosPLC"><br><h2>Datos en PLC</h2><br></div>    
+                    <div id="datosCalibracion"><br><h2>Datos de  Calibración</h2><br></div>
+                    <div id="datosEquipo"><br><h2>Datos del Equipo</h2><br></div>
+                    <div id="datosSAP"><br><h2>Datos SAP</h2><br></div>
+                </section>
+            </main>
+
+            <footer>    
+                <div class="pie">            
+                    <h4>Mantenimiento Electrico - Molinos Agro</h4>
+                </div>                           
+            </footer> 
+
+
+        </div>
+    
+
+    <!--PORQUE LOS SCRIPTS LOS ESTOY LLAMANDO ACA Y NO EN EL HEADER??????????????-->
+    <script src="./scripts/load_data_L3A.js" type="module"></script>
+    <script src="./scripts/load_data_L3B.js" type="module"></script>
+    <script src="./scripts/load_data_L3AB.js" type="module"></script>
+    <script src="./scripts/script.js" type="module"></script>
+</body>
+</html>
+
+

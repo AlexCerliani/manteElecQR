@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autocompletado de Equipos</title>
+  <style>
+    /* Estilo opcional para mejorar la presentación */
+    #resultados {
+      list-style-type: none;
+      padding: 0;
+    }
+    #resultados li {
+      padding: 8px;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+    }
+    #resultados li:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <input type="text" id="inputBusqueda" placeholder="Buscar equipo...">
+  <ul id="resultados"></ul>
+
+  <script>
+    let equipos = [
+      'LT_SIL301',
+      'LT_SIL302',
+      'LT_TK301_FILTRADA',
+      'TT_402',
+      'PT_502',
+      'PDT_302',
+      // ... más equipos ...
+    ];
+
+    let inputBusqueda = document.getElementById('inputBusqueda');
+    let resultadosLista = document.getElementById('resultados');
+
+    // Manejar el evento de entrada
+    inputBusqueda.addEventListener('input', function () {
+      let valorBusqueda = inputBusqueda.value.toLowerCase();
+      let equiposFiltrados = equipos.filter(equipo => equipo.toLowerCase().includes(valorBusqueda));
+      mostrarEquiposFiltrados(equiposFiltrados);
+    });
+
+    // Manejar clics fuera del área de búsqueda
+    document.addEventListener('click', function (event) {
+      if (!event.target.closest('#inputBusqueda') && !event.target.closest('#resultados')) {
+        resultadosLista.innerHTML = '';
+      }
+    });
+
+    function mostrarEquiposFiltrados(equipos) {
+      // Limpiar resultados anteriores
+      resultadosLista.innerHTML = '';
+
+      // Mostrar nuevos resultados
+      equipos.forEach(equipo => {
+        let listItem = document.createElement('li');
+        listItem.textContent = equipo;
+        // Agregar un evento al hacer clic en un resultado
+        listItem.addEventListener('click', function () {
+          inputBusqueda.value = equipo; // Puedes ajustar esto según tus necesidades
+          resultadosLista.innerHTML = ''; // Limpiar la lista después de seleccionar un equipo
+        });
+        resultadosLista.appendChild(listItem);
+      });
+    }
+  </script>
+
+</body>
+</html>

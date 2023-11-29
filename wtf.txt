@@ -1,0 +1,130 @@
+https://codepen.io/angeladelise/pen/YzXLdyq?editors=1100
+
+var motorsAndDrives = [
+    {
+        label: "Motor 1",
+        type: "AC Motor",
+        power: "10 HP",
+        manufacturer: "ABC Inc.",
+        sector: "Sector1"
+    },
+    {
+        label: "Motor 2",
+        type: "DC Motor",
+        power: "7.5 HP",
+        manufacturer: "XYZ Motors",
+        sector: "Sector2"
+    },
+    {
+        label: "Drive 1",
+        type: "Variable Frequency Drive",
+        capacity: "20 kW",
+        manufacturer: "XYZ Corp.",
+        sector: "Sector3"
+    },
+    {
+        label: "Motor 3",
+        type: "AC Motor",
+        power: "5 HP",
+        manufacturer: "DEF Motors",
+        sector: "Sector4"
+    },
+    {
+        label: "Drive 2",
+        type: "Variable Frequency Drive",
+        capacity: "15 kW",
+        manufacturer: "LMN Technologies",
+        sector: "Sector5"
+    },
+    {
+        label: "Motor 4",
+        type: "AC Motor",
+        power: "8 HP",
+        manufacturer: "GHI Inc.",
+        sector: "Sector6"
+    },
+    {
+        label: "Motor 5",
+        type: "DC Motor",
+        power: "7 HP",
+        manufacturer: "PQR Motors",
+        sector: "Sector7"
+    },
+    {
+        label: "Drive 3",
+        type: "Variable Frequency Drive",
+        capacity: "30 kW",
+        manufacturer: "STU Corp.",
+        sector: "Sector8"
+    }
+];
+
+var table = document.getElementById('motorTable');
+var sectorDropdown = document.getElementById('sectorDropdown');
+var tipoEquiposDropdown = document.getElementById('tipoEquiposDropdown');
+var searchButton = document.getElementById('searchButton');
+var darkModeToggle = document.getElementById('darkModeToggle');
+var darkModeEnabled = false;
+
+
+
+function populateTable() {
+    // Clear the table
+    table.innerHTML = '<tr><th>Name</th><th>Type</th><th>Power/Capacity</th><th>Manufacturer</th></tr>';
+    
+    // Get the selected options from the dropdowns
+    var selectedSector = sectorDropdown.value;
+    var selectedTipoEquipos = tipoEquiposDropdown.value;
+
+    alert(selectedSector + "-----" + selectedTipoEquipos)
+    
+    motorsAndDrives.forEach(function (item) {
+        // Check if the item matches the selected filters
+        if ((selectedSector === 'All' || item.sector === selectedSector) &&
+            (selectedTipoEquipos === 'All' || item.type === selectedTipoEquipos)) {
+            var row = table.insertRow(-1);
+            var labelCell = row.insertCell(0);
+            var typeCell = row.insertCell(1);
+            var powerCell = row.insertCell(2);
+            var manufacturerCell = row.insertCell(3);
+
+            labelCell.innerHTML = item.label;
+            typeCell.innerHTML = item.type;
+            powerCell.innerHTML = item.power || item.capacity || '';
+            manufacturerCell.innerHTML = item.manufacturer;
+        }
+    });
+}
+
+function toggleDarkMode() {
+    var stylesheetLink = document.getElementById('stylesheet-link');
+    //darkModeEnabled = !darkModeEnabled;
+    alert("Entre al cambio de modo")
+    if (darkModeEnabled === false) {
+        // Switch to dark mode
+        darkModeEnabled = true;
+        stylesheetLink.href = './css/styles-dark.css';
+    } else {
+        // Switch to light mode
+        darkModeEnabled = false;
+        stylesheetLink.href = './css/styles.css';
+    }
+}
+
+
+//Comienzan los llamados a Funciones segun Eventos.
+
+// Event listeners for dropdown changes, search button, and dark mode toggle
+searchButton.addEventListener('click', populateTable);
+//sectorDropdown.addEventListener('change', populateTable);
+//tipoEquiposDropdown.addEventListener('change', populateTable);
+darkModeToggle.addEventListener('click', toggleDarkMode);
+
+// Initial population of the table
+populateTable();
+
+
+
+
+Todas las areas,Linea 1,Línea 2,Línea 3 Extracción,Línea 3A Preparación,Línea 3B Preparación,Línea 3AB Preparación,Caldera 2,Caldera 3,Caldera 4,Caldera Comunes,Energia,Fermentación,Logística,Planta de Agua,Planta de Osmosis,Puerto,Storage
+

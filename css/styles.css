@@ -1,0 +1,308 @@
+*{
+    padding: 0; /*Le da tamaño a la caja de manera interna*/
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ============ COMANDOS GENERALES ============ */
+/* Styles for the page title */
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.dropdown-container, .mode-toggle{
+    text-align: center;
+}
+
+.mode-toggle{
+    margin-top: 20px;
+}
+
+/* Styles for the table */
+table {
+    max-width: 80%;
+    width: auto;
+    min-width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+table, th, td {
+    border: 1px solid #f2f2f2;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    /*max-width:50px;
+    width:auto;
+    min-width:10px;*/
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Styles for table headers */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Alternar color de fila para mas claridad 
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}*/
+
+
+tr.odd {
+    background-color: #f2f2f2;
+}
+
+tr.even {
+    background-color: #ffffff;
+}
+
+.buscarProd{
+    grid-area: item10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: rgba(255,217,177,255); 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 20px;   
+}
+#filtrarButton{
+    grid-area: item11;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;*/
+    background-color: rgba(255,217,177,255); 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 20px;   
+}
+.dropdown-container{
+    grid-area: item12;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    background-color: rgba(255,217,177,255); 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 20px; 
+}
+#searchButton{
+    grid-area: item13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: rgba(255,217,177,255); 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 20px;   
+}
+
+
+
+
+
+
+
+
+
+/* 
+.mode-toggle{
+    background-color: #612053;    
+    grid-area: item1;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255);
+    padding: 10px;
+} */
+.logo{
+    background-color: rgb(255, 255, 255);    
+    grid-area: item1;
+    text-align: center; 
+    text-justify: center; 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 10px;
+}
+/* .home{
+    background-color: #61205b;    
+    grid-area: item3;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255);  
+    padding: 10px;
+}*/
+.pie{
+    background-color: #61205b;    
+    grid-area: item100;
+    display: flex;
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 10px;
+}
+.intro{
+    background-color: #61205b;    
+    grid-area: item14;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */ 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 10px;
+}
+/*#motorTable{
+    background-color: #61205b;    
+    grid-area: item15;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); 
+    padding: 10px;
+}*/
+.datosPLC{
+    background-color: #206122;    
+    grid-area: item15;
+    /*display: flex;
+    flex-direction: column;*/
+    align-items: center; 
+    justify-content: center; 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 10px;
+}
+
+.datosCalibracion{
+    background-color: #61205b;    
+    grid-area: item16;
+    /*display: flex;
+    flex-direction: column;*/
+    align-items: center; 
+    justify-content: center;  
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 10px;
+}
+.datosEquipo{
+    background-color: #61205b;    
+    grid-area: item17;
+    /*display: flex;
+    flex-direction: column;*/
+    align-items: center; 
+    justify-content: center; 
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 10px;
+}
+.datosSAP{
+    background-color: #61205b;    
+    grid-area: item18;
+    /*display: flex;
+    flex-direction: column;*/
+    align-items: center; 
+    justify-content: center;  
+    margin: 0px;
+    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================= GRID =================*/
+.gridGeneral{
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* set up 3 rows for header, main, and footer */
+    grid-template-columns: 1fr; /* set up 1 column for the content */
+    height: 100vh; /* make sure the container takes up the full height of the viewport */
+    width: 100vw; /* make sure the container takes up the full width */
+}
+
+/* Define the grid areas for each section */
+header{
+    grid-row: 1 / 2; /* Esta es la ubicacion en su Grid Padre */
+    grid-column: 1 / -1; /* Esta es la ubicacion en su Grid Padre */
+    display: grid; 
+    grid-template-rows: repeat(1, fit-content); 
+    grid-template-columns: repeat(1, fit-content); 
+    /*  grid-template-rows: fit-content(3.5%) fit-content(10.51%) minmax(7.00%,7.00%) fit-content(12.07%) fit-content(17.52%) minmax(5.43%,5.43%) minmax(24.35%,24.35%) fit-content(15.59%) fit-content(4%);
+    grid-template-columns: repeat(12,fit-content(160px)); */
+    grid-template-areas:
+    "item1"
+}
+
+footer {
+    grid-row: 3 / 4; /* Esta es la ubicacion en su Grid Padre */
+    grid-column: 1 / -1; /* span the full width of the container */    
+    grid-template-areas:
+    "item100"
+}
+
+main{
+    grid-row: 2 / 3; /* Esta es la ubicacion en su Grid Padre */
+    grid-column: 1 / -1; /* span the full width of the container */ 
+    display: grid; 
+    grid-template-rows: auto auto; 
+    grid-template-columns: 1fr; 
+}
+
+.busqueda{
+    display: grid; 
+    grid-template-rows: repeat(2, fit-content); 
+    grid-template-columns: auto fit-content;  
+    grid-template-areas:
+    "item10 item11"
+    "item12 item13"
+}
+
+.info{
+    display: grid; 
+    grid-template-rows: repeat(3, fit-content); 
+    grid-template-columns: auto fit-content;  
+    grid-template-areas:
+    "item14 item14"
+    "item15 item16"
+    "item17 item18"
+}
