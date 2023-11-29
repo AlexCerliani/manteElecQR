@@ -305,68 +305,13 @@ function obtenerParametroDeURL(nombre) {
     return urlSearchParams.get(nombre);
 }
 
-function tagDesdeQR() {
+function llenarDesdeQR() {
     const equipo = obtenerParametroDeURL('equipo');
-    let match = false;
-    console.log(equipo)
-    if (equipo){
-        for (const tag in instrumentos) {
-            if (equipo === tag) {               
-                match = true;    
-                appDiv.innerHTML = `<h1>Información del Equipo ${equipo}</h1>`;                            
-                if (instrumentos.hasOwnProperty(tag)) {
-                    const instrumento = instrumentos[tag];
-                    for (const parametro in instrumento){
-                        datosPLC.innerHTML += `<br><td>${parametro}: ${instrumento[parametro]}</td></br>`;
-                        datosCalibracion.innerHTML += `<br><td>${parametro}: ${instrumento[parametro]}</td></br>`;
-                        datosEquipo.innerHTML += `<br><td>${parametro}: ${instrumento[parametro]}</td></br>`;
-                        datosSAP.innerHTML += `<br><td>${parametro}: ${instrumento[parametro]}</td></br>`;
-
-                    }
-                }
-            }        
-        }
-        if (match == false){
-            appDiv.innerHTML = `<h1>Equipo ${equipo} no existe, la URL es incorrecta</h1>`;
-        } else {
-            match = false;
-        }
-        /*Chequear de hacerlo de otra forma, esto es muy poco practico*/
-        datosPLC.style.backgroundColor = '#206122'; 
-        datosPLC.style.textAlign = 'center';
-        datosPLC.style.justifyContent = 'center';
-        datosPLC.style.margin = '0px';   
-        datosPLC.style.border = '2px solid rgba(255,0,0,255)';
-        datosPLC.style.padding = '10px';
-
-        datosCalibracion.style.backgroundColor = '#206122'; 
-        datosCalibracion.style.textAlign = 'center';
-        datosCalibracion.style.justifyContent = 'center';
-        datosCalibracion.style.margin = '0px';   
-        datosCalibracion.style.border = '2px solid rgba(255,0,0,255)';
-        datosCalibracion.style.padding = '10px';
-
-        datosEquipo.style.backgroundColor = '#206122'; 
-        datosEquipo.style.textAlign = 'center';
-        datosEquipo.style.justifyContent = 'center';
-        datosEquipo.style.margin = '0px';   
-        datosEquipo.style.border = '2px solid rgba(255,0,0,255)';
-        datosEquipo.style.padding = '10px';
-
-        datosSAP.style.backgroundColor = '#206122'; 
-        datosSAP.style.textAlign = 'center';
-        datosSAP.style.justifyContent = 'center';
-        datosSAP.style.margin = '0px';   
-        datosSAP.style.border = '2px solid rgba(255,0,0,255)';
-        datosSAP.style.padding = '10px';
-    } else {
-        console.log("La funcion handEquipo no hizo nada!")
-        console.log("Equipo es: " + equipo)
-    }
+    infoTag(equipo)
 }
 
 // Llamada inicial
-tagDesdeQR();
+llenarDesdeQR();
 
 
 
@@ -375,29 +320,61 @@ tagDesdeQR();
 
 
 
-// ===========================Autocompletar barra de busqueda=========================
-
+// =========================== AUTOCOMPLETAR INPUT + BOTON FILTRAR =========================
 let instrumentosArray = [];
 for (const tag in instrumentos) {
     instrumentosArray.push(tag);
 }
 
 let inputBusqueda = document.getElementById('inputBusqueda');
-let resultadosLista = document.getElementById('resultados');
+const opcionesDropdown = document.getElementById('opcionesDropdown');
 
-// Manejar el evento de entrada
-inputBusqueda.addEventListener('input', function () {
-    let valorBusqueda = inputBusqueda.value.toLowerCase();
-    let instrumentosFiltrados = instrumentosArray.filter(instrumento => instrumento.toLowerCase().includes(valorBusqueda));
-    mostrarInstrumentosFiltrados(instrumentosFiltrados);
+// Evento de entrada en la input
+inputBusqueda.addEventListener('input', function() {
+    // Llenar el dropdown con opciones relevantes
+    llenarDropdown();
+
+    // Mostrar el dropdown
+    opcionesDropdown.style.display = 'block';
 });
 
-// Manejar clics fuera del área de búsqueda
-document.addEventListener('click', function (event) {
-    if (!event.target.closest('#inputBusqueda') && !event.target.closest('#resultados')) {
-    resultadosLista.innerHTML = '';
+// Evento clic fuera de la input
+document.addEventListener('click', function(event) {
+    if (!opcionesDropdown.contains(event.target) && event.target !== inputBusqueda) {
+        // Ocultar el dropdown si se hace clic fuera de la input y el dropdown
+        opcionesDropdown.style.display = 'none';
     }
 });
+
+// Evento clic en una opción del dropdown
+opcionesDropdown.addEventListener('click', function(event) {
+    // Asignar el valor de la opción seleccionada a la input
+    inputBusqueda.value = event.target.value;
+
+    // Ocultar el dropdown
+    opcionesDropdown.style.display = 'none';
+});
+
+function llenarDropdown() {
+    // Eliminar opciones existentes
+    opcionesDropdown.innerHTML = '';
+
+    // Obtener las opciones relevantes según el valor de la input
+    const opciones = obtenerOpciones(inputBusqueda.value);
+
+    // Agregar opciones al dropdown
+    opciones.forEach(opcion => {
+        const option = document.createElement('option');
+        option.value = opcion;
+        option.textContent = opcion; // Agregar este contenido para asegurar la visibilidad
+        opcionesDropdown.appendChild(option);
+    });
+}
+
+function obtenerOpciones(valorInput) {
+    // Filtrar las opciones según el valor de la input
+    return instrumentosArray.filter(tag => tag.toLowerCase().includes(valorInput.toLowerCase()));
+}
 
 function mostrarInstrumentosFiltrados(instrumentosArray) {
     // Limpiar resultados anteriores
@@ -416,15 +393,24 @@ function mostrarInstrumentosFiltrados(instrumentosArray) {
     });
 }
 
-function tagDesdeInput() {
+function llenarDesdeInput() {
     const equipo = document.getElementById('inputBusqueda').value;
-    console.log(equipo)
+    document.getElementById('inputBusqueda').value = "";
+    console.log(equipo);
+    infoTag(equipo);
+}
+// =========================================================================================
+
+
+
+
+// ================================ FUNCIONES GENERALES ================================ 
+function infoTag(equipo){
     /* Primero debo vaciar los datos, ya que sino se acumulan si el usuario utiliza el filtro mas de 1 vez */
     datosPLC.innerHTML = `<br><h2>Datos en PLC</h2><br>`;
     datosCalibracion.innerHTML = `<br><h2>Datos de  Calibración</h2><br>`;
     datosEquipo.innerHTML = `<br><h2>Datos del Equipo</h2><br>`;
     datosSAP.innerHTML = `<br><h2>Datos SAP</h2><br>`;
-
 
     let match = false;
     if (equipo){
@@ -478,7 +464,7 @@ function tagDesdeInput() {
         datosSAP.style.border = '2px solid rgba(255,0,0,255)';
         datosSAP.style.padding = '10px';
     } else {
-        console.log("La funcion tagDesdeInput no hizo nada!")
+        console.log("La funcion llenarDesdeInput no hizo nada!")
         console.log("Equipo es: " + equipo)
     }
 }
@@ -488,6 +474,7 @@ function tagDesdeInput() {
 
 
 
+// ===================================================================================== 
 
 
 
@@ -497,12 +484,12 @@ function tagDesdeInput() {
 
 
 
-//EVENTOS
+// ================================ EVENTOS ================================ 
 //darkModeToggle.addEventListener('click', toggleDarkMode); PARA HACER LUEGO
 sectorDropdown.addEventListener('change', rellenarEquiposDropdown);
 // searchButton.addEventListener('click', );
-filtrarButton.addEventListener('click', tagDesdeInput);
-
+filtrarButton.addEventListener('click', llenarDesdeInput);
+// =========================================================================
 
 
 

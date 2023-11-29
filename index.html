@@ -21,58 +21,55 @@
             <main>
                 <section class="busqueda">
                     <div class="buscarProd">
-                        <input id="inputBusqueda" placeholder="Buscar TAG" type="text" value="">
-                        <ul id="resultados"></ul>    
+                        <div class="inputContainer">
+                            <input id="inputBusqueda" placeholder="Buscar TAG" type="text" value="">
+                            <select id="opcionesDropdown" size="5" style="display: none; background-color: #f0f0f0; color: #000; width: 100%;"></select>
+                        </div>
+                        <button id="filtrarButton">Filtrar</button>
                     </div>
-
-                    <button id="filtrarButton">Filtrar</button>
-                    
-
-
-
-
                     <!-- Dropdowns para Sector and Tipo equipos -->
                     <div class="dropdown-container">
-
-                        <label for="tipoEquiposDropdown">Tipo equipos:</label>
-                        <select id="tipoEquiposDropdown">
-                            <option value=""></option>
-                            <option value="motores">Motores</option>
-                            <option value="instrumentos">Instrumentos</option>
-                        </select>
-
-                        <label for="sectorDropdown">Sector:</label>                        
-                        <select id="sectorDropdown">
-                            <option value="Todos">Todos</option>
-                            <option value="Línea 1">Linea 1</option>
-                            <option value="Línea 2">Línea 2</option>
-                            <option value="Línea 3 Extracción">Línea 3 Extracción</option>
-                            <option value="L3A" >Línea 3A Preparación</option>
-                            <option value="L3B">Línea 3B Preparación</option>
-                            <option value="L3AB">Línea 3AB Preparación</option>
-                            <option value="Caldera 2">Caldera 2</option>
-                            <option value="Caldera 3">Caldera 3</option>
-                            <option value="Caldera 4">Caldera 4</option>
-                            <option value="Caldera Comunes">Caldera Comunes</option>
-                            <option value="Energía">Energía</option>
-                            <option value="Fermentación">Fermentación</option>
-                            <option value="Logística">Logística</option>
-                            <option value="Planta de Agua">Planta de Agua</option>
-                            <option value="Planta de Ósmosis">Planta de Ósmosis</option>
-                            <option value="Puerto">Puerto</option>
-                            <option value="Storage">Storage</option>
-                        </select>
-                        
-                        
-
-                        <label for="EquiposDropdown">Tipo equipos:</label>
-                        <select id="EquiposDropdown">
-                            <option value=""></option>
-                        </select>
-                    </div>
-
-                        <button id="searchButton">Buscar</button>
-                    
+                        <div class="tipoEquiposDowndown-container">
+                            <label for="tipoEquiposDropdown">Tipo equipos:</label>
+                            <select id="tipoEquiposDropdown">
+                                <option value=""></option>
+                                <option value="motores">Motores</option>
+                                <option value="instrumentos">Instrumentos</option>
+                            </select>
+                        </div>
+                        <div class="sectorDowndown-container">
+                            <label for="sectorDropdown">Sector:</label>                        
+                            <select id="sectorDropdown">
+                                <option value="Todos">Todos</option>
+                                <option value="Línea 1">Linea 1</option>
+                                <option value="Línea 2">Línea 2</option>
+                                <option value="Línea 3 Extracción">Línea 3 Extracción</option>
+                                <option value="L3A" >Línea 3A Preparación</option>
+                                <option value="L3B">Línea 3B Preparación</option>
+                                <option value="L3AB">Línea 3AB Preparación</option>
+                                <option value="Caldera 2">Caldera 2</option>
+                                <option value="Caldera 3">Caldera 3</option>
+                                <option value="Caldera 4">Caldera 4</option>
+                                <option value="Caldera Comunes">Caldera Comunes</option>
+                                <option value="Energía">Energía</option>
+                                <option value="Fermentación">Fermentación</option>
+                                <option value="Logística">Logística</option>
+                                <option value="Planta de Agua">Planta de Agua</option>
+                                <option value="Planta de Ósmosis">Planta de Ósmosis</option>
+                                <option value="Puerto">Puerto</option>
+                                <option value="Storage">Storage</option>
+                            </select>
+                        </div>                        
+                        <div class="equiposDowndown-container">  
+                            <label for="EquiposDropdown">Tipo equipos:</label>
+                            <select id="EquiposDropdown">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="searchButton-container">
+                            <button id="searchButton">Buscar</button>
+                        </div>
+                    </div>  
                 </section>
 
                 
