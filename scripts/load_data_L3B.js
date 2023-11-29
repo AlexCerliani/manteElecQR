@@ -1,4 +1,4 @@
-let rutaArchivo = 'http://127.0.0.1:5501/assets/text/PLC_Linea3B.L5X';
+let rutaArchivo = 'https://alexcerliani.github.io/manteElecQR/assets/text/PLC_Linea3B.L5X';
 
 let lines;
     
