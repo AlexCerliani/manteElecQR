@@ -283,7 +283,7 @@ window.onload = setColumnWidths; */
 
 
 
-// ===========================QR=========================
+// =============================== QR =============================== 
 const urlActual = window.location.href;
 console.log(urlActual);
 // Crea un objeto URL
@@ -307,11 +307,16 @@ function obtenerParametroDeURL(nombre) {
 
 function llenarDesdeQR() {
     const equipo = obtenerParametroDeURL('equipo');
-    infoTag(equipo)
+    if (equipo != null){
+        infoTag(equipo)
+    } else {
+        console.log("No ejecute infoTag desde QR!!!!!")
+    }
 }
 
 // Llamada inicial
 llenarDesdeQR();
+// ================================================================== 
 
 
 
@@ -396,10 +401,30 @@ function mostrarInstrumentosFiltrados(instrumentosArray) {
 function llenarDesdeInput() {
     const equipo = document.getElementById('inputBusqueda').value;
     document.getElementById('inputBusqueda').value = "";
+    //Tambien reseteo el dropdown Equipo por las dudas
+    document.getElementById('EquiposDropdown').value = "";
     console.log(equipo);
     infoTag(equipo);
 }
 // =========================================================================================
+
+
+
+
+// =========================== BOTON BUSCAR =========================
+function llenarDesdeDropDown() {
+    const equipo = document.getElementById('EquiposDropdown').value;
+    document.getElementById('EquiposDropdown').value = "";
+    //Tambien vacio la input por las dudas
+    document.getElementById('inputBusqueda').value = "";
+    console.log(equipo);
+    infoTag(equipo);
+}
+
+// ==================================================================
+
+
+
 
 
 
@@ -436,32 +461,32 @@ function infoTag(equipo){
             match = false;
         }
         /*Chequear de hacerlo de otra forma, esto es muy poco practico*/
-        datosPLC.style.backgroundColor = '#206122'; 
+        datosPLC.style.backgroundColor = 'rgba(222,222,222,255)'; 
         datosPLC.style.textAlign = 'center';
         datosPLC.style.justifyContent = 'center';
         datosPLC.style.margin = '0px';   
-        datosPLC.style.border = '2px solid rgba(255,0,0,255)';
+        datosPLC.style.border = '2px solid rgba(0,0,0,255)';
         datosPLC.style.padding = '10px';
 
-        datosCalibracion.style.backgroundColor = '#206122'; 
+        datosCalibracion.style.backgroundColor = 'rgba(222,222,222,255)'; 
         datosCalibracion.style.textAlign = 'center';
         datosCalibracion.style.justifyContent = 'center';
         datosCalibracion.style.margin = '0px';   
-        datosCalibracion.style.border = '2px solid rgba(255,0,0,255)';
+        datosCalibracion.style.border = '2px solid rgba(0,0,0,255)';
         datosCalibracion.style.padding = '10px';
 
-        datosEquipo.style.backgroundColor = '#206122'; 
+        datosEquipo.style.backgroundColor = 'rgba(222,222,222,255)'; 
         datosEquipo.style.textAlign = 'center';
         datosEquipo.style.justifyContent = 'center';
         datosEquipo.style.margin = '0px';   
-        datosEquipo.style.border = '2px solid rgba(255,0,0,255)';
+        datosEquipo.style.border = '2px solid rgba(0,0,0,255)';
         datosEquipo.style.padding = '10px';
 
-        datosSAP.style.backgroundColor = '#206122'; 
+        datosSAP.style.backgroundColor = 'rgba(222,222,222,255)'; 
         datosSAP.style.textAlign = 'center';
         datosSAP.style.justifyContent = 'center';
         datosSAP.style.margin = '0px';   
-        datosSAP.style.border = '2px solid rgba(255,0,0,255)';
+        datosSAP.style.border = '2px solid rgba(0,0,0,255)';
         datosSAP.style.padding = '10px';
     } else {
         console.log("La funcion llenarDesdeInput no hizo nada!")
@@ -487,8 +512,8 @@ function infoTag(equipo){
 // ================================ EVENTOS ================================ 
 //darkModeToggle.addEventListener('click', toggleDarkMode); PARA HACER LUEGO
 sectorDropdown.addEventListener('change', rellenarEquiposDropdown);
-// searchButton.addEventListener('click', );
 filtrarButton.addEventListener('click', llenarDesdeInput);
+searchButton.addEventListener('click', llenarDesdeDropDown);
 // =========================================================================
 
 

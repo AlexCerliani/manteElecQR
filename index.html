@@ -6,27 +6,39 @@
 </head>
     <body>
         <div class="gridGeneral">
-            <header>            
-                <!--<div class="mode-toggle">
-                    <button id="darkModeToggle">Cambiar a Modo Oscuro</button>
-                </div>-->
-                <div class="logo">
-                    <img src="assets/images/Logo_MOA.png" alt="">
-                </div>
-                <!--<div class="home">
-                    <a href="../index.html" style="color: #205E61; text-decoration: none;"> <em>Inicio</em> </a>
-                </div>-->                
+            <header>  
+                <div class="encabezado">          
+                    <!--<div class="mode-toggle">
+                        <button id="darkModeToggle">Cambiar a Modo Oscuro</button>
+                    </div>-->
+                    <div class="logo">
+                        <img src="assets/images/Logo_MOA.png" alt="">                    
+                    </div>
+                    <div class="Titulo">
+                        <h1><br>Mantenimiento Eléctrico</br>
+                            <br>Información Motores e Instrumentos </br>
+                        </h1>
+                    </div>
+                    <!--<div class="home">
+                        <a href="../index.html" style="color: #205E61; text-decoration: none;"> <em>Inicio</em> </a>
+                    </div>-->
+                </div>                
             </header>
 
             <main>
-                <section class="busqueda">
-                    <div class="buscarProd">
+                <div class="busqueda">
+º
+                    <div class="buscarProd-container">
                         <div class="inputContainer">
                             <input id="inputBusqueda" placeholder="Buscar TAG" type="text" value="">
                             <select id="opcionesDropdown" size="5" style="display: none; background-color: #f0f0f0; color: #000; width: 100%;"></select>
                         </div>
-                        <button id="filtrarButton">Filtrar</button>
+                        <div class="filtrarButtonContainer">
+                            <button id="filtrarButton">Filtrar</button>
+                        </div>
+
                     </div>
+                    
                     <!-- Dropdowns para Sector and Tipo equipos -->
                     <div class="dropdown-container">
                         <div class="tipoEquiposDowndown-container">
@@ -67,16 +79,16 @@
                             </select>
                         </div>
                         <div class="searchButton-container">
+                            <label for="searchButton"></label>   
                             <button id="searchButton">Buscar</button>
                         </div>
                     </div>  
-                </section>
+                </div>
 
                 
 
-                <section class="info">
+                <div class="info">
                     <div class="intro">
-                        <h1>Información Motores e Instrumentos - Mantenimiento Eléctrico</h1>
                         <div id="app"></div>
                     </div>
                     
@@ -104,12 +116,12 @@
                     <div id="datosCalibracion"><br><h2>Datos de  Calibración</h2><br></div>
                     <div id="datosEquipo"><br><h2>Datos del Equipo</h2><br></div>
                     <div id="datosSAP"><br><h2>Datos SAP</h2><br></div>
-                </section>
+                </div>
             </main>
 
             <footer>    
                 <div class="pie">            
-                    <h4>Mantenimiento Electrico - Molinos Agro</h4>
+                    <h1>Mantenimiento Electrico - Molinos Agro</h1>
                 </div>                           
             </footer> 
 

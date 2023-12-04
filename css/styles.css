@@ -71,77 +71,102 @@ tr.even {
 }
 
 
-
-.logo{
+/*========================== HEADER ========================= */
+.encabezado{
     background-color: rgb(255, 255, 255);    
     grid-area: item1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
     text-align: center; 
     text-justify: center; 
     margin: 0px;
-    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
-    padding: 10px;
+    border: 0px solid rgba(255,0,0,255); /* a reemplazar */ 
+    border-color: rgba(0,0,255,255);
+    padding: 0%;
 }
+.logo{
+    max-width: 100%; /* Para asegurar que la imagen no exceda el contenedor */
+    height: auto; /* Para mantener la proporción original de la imagen */
+}
+.titulo{
+
+}
+/*=========================================================== */
 
 
 
 
-.buscarProd {
-    grid-area: item10;
+
+
+/*========================== MAIN ========================= */
+.buscarProd-container {
+    grid-area: item40;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;    
-}
-
-.inputContainer {
-    position: relative;
-    flex: 1;
-    margin-right: 5%;
-    margin-left: 5%
-}
-
-#inputBusqueda {
+    justify-content: space-between;
     width: 100%;
-    padding-right: 30px; /* Ajusta según sea necesario */
+}
+
+.inputContainer, .filtrarButtonContainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+}
+
+.filtrarButtonContainer {
+    width: 25%; 
+}
+
+#inputBusqueda {    
+    width: 75%; 
 }
 
 #filtrarButton {
-    min-width: 15%;
-    max-width: 15%;
-    margin-right: 5%;
+    width: 75%;
 }
 
 
 
 .dropdown-container{
-    grid-area: item12;
+    width: 100%;
+    grid-area: item41;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.tipoEquiposDowndown-container{
-    min-width: 22%;
-    margin-left: 5%;
-    margin-right: 2%;
+.tipoEquiposDowndown-container, .sectorDowndown-container, .equiposDowndown-container, .searchButton-container{
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
 }
-.sectorDowndown-container{
-    min-width: 22%;
-    margin-right: 2%;
+
+.searchButton-container{
+    width: 16%; 
+    margin-right: 1%;
+    margin-left: 1%;
 }
-.equiposDowndown-container{
-    min-width: 22%;
-    margin-right: 2%;
+
+.tipoEquiposDowndown-container, .sectorDowndown-container, .equiposDowndown-container{
+    width: 100%
 }
+
 #EquiposDropdown{
     width: 150px;
 }
-.searchButton-container{
-    min-width: 9%;
-    margin-right: 5%;
+
+#searchButton{
+    width: 150px;
 }
 
+/*========================================================= */
 
 
 
@@ -171,25 +196,27 @@ tr.even {
     padding: 10px;
 }*/
 .pie{
-    background-color: #61205b;    
+    background-color: #000000;    
     grid-area: item100;
     display: flex;
     align-items: center; /* Centrado vertical */
     justify-content: center; /* Centrado horizontal */
     margin: 0px;
-    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    border: 0px solid rgba(255,0,0,255); /* a reemplazar */ 
     padding: 10px;
+    color: white;
 }
 .intro{
-    background-color: #61205b;    
+    background-color: #000000;    
     grid-area: item14;
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrado vertical */
     justify-content: center; /* Centrado horizontal */ 
     margin: 0px;
-    border: 2px solid rgba(255,0,0,255); /* a reemplazar */ 
+    border: 0px solid rgba(255,0,0,255); /* a reemplazar */ 
     padding: 10px;
+    color: white;
 }
 /*#motorTable{
     background-color: #61205b;    
@@ -203,7 +230,7 @@ tr.even {
     padding: 10px;
 }*/
 .datosPLC{
-    background-color: #206122;    
+    background-color: #ffffff;    
     grid-area: item15;
     /*display: flex;
     flex-direction: column;*/
@@ -215,7 +242,7 @@ tr.even {
 }
 
 .datosCalibracion{
-    background-color: #61205b;    
+    background-color: #ffffff;    
     grid-area: item16;
     /*display: flex;
     flex-direction: column;*/
@@ -226,7 +253,7 @@ tr.even {
     padding: 10px;
 }
 .datosEquipo{
-    background-color: #61205b;    
+    background-color: #ffffff;    
     grid-area: item17;
     /*display: flex;
     flex-direction: column;*/
@@ -237,7 +264,7 @@ tr.even {
     padding: 10px;
 }
 .datosSAP{
-    background-color: #61205b;    
+    background-color: #ffffff;    
     grid-area: item18;
     /*display: flex;
     flex-direction: column;*/
@@ -286,15 +313,9 @@ header{
     grid-template-columns: repeat(1, fit-content); 
     /*  grid-template-rows: fit-content(3.5%) fit-content(10.51%) minmax(7.00%,7.00%) fit-content(12.07%) fit-content(17.52%) minmax(5.43%,5.43%) minmax(24.35%,24.35%) fit-content(15.59%) fit-content(4%);
     grid-template-columns: repeat(12,fit-content(160px)); */
+    width: 100vw; /* make sure the container takes up the full width */
     grid-template-areas:
     "item1"
-}
-
-footer {
-    grid-row: 3 / 4; /* Esta es la ubicacion en su Grid Padre */
-    grid-column: 1 / -1; /* span the full width of the container */    
-    grid-template-areas:
-    "item100"
 }
 
 main{
@@ -303,18 +324,24 @@ main{
     display: grid; 
     grid-template-rows: auto auto; 
     grid-template-columns: 1fr; 
+    width: 100vw; /* make sure the container takes up the full width */
+    grid-template-areas: 
+    "item4"
+    "item5"
 }
 
 .busqueda{
+    grid-area: item4;
     display: grid; 
     grid-template-rows: 100px 100px; 
     grid-template-columns: 1fr;  
     grid-template-areas:
-    "item10"
-    "item12"
+    "item40"
+    "item41"
 }
 
 .info{
+    grid-area: item5;
     display: grid; 
     grid-template-rows: repeat(3, fit-content); 
     grid-template-columns: auto fit-content;  
@@ -322,4 +349,13 @@ main{
     "item14 item14"
     "item15 item16"
     "item17 item18"
+}
+
+
+
+footer {
+    grid-row: 3 / 4; /* Esta es la ubicacion en su Grid Padre */
+    grid-column: 1 / -1; /* span the full width of the container */    
+    grid-template-areas:
+    "item100"
 }
