@@ -477,7 +477,7 @@ function infoTag(equipo){
 
         datosEquipo.style.backgroundColor = 'rgba(222,222,222,255)'; 
         datosEquipo.style.textAlign = 'center';
-        datosEquipo.style.justifyContent = 'center';
+        datosEquipo.style.justifyContent = 'center';q
         datosEquipo.style.margin = '0px';   
         datosEquipo.style.border = '2px solid rgba(0,0,0,255)';
         datosEquipo.style.padding = '10px';
