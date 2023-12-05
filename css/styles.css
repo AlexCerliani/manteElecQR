@@ -133,7 +133,7 @@ tr.even {
 #opcionesDropdown {
     width: 100%; /* Deja que el ancho sea igual al contenedor */
     max-width: 75%; /* Pero no se extienda más allá del 75% */
-    height: 6rem !important;
+    height: 10rem !important;
 }
 
 
@@ -353,7 +353,7 @@ main{
 .busqueda{
     grid-area: item4;
     display: grid; 
-    grid-template-rows: 100px 100px; 
+    grid-template-rows: minmax(100px, 10fr) 100px; 
     grid-template-columns: 1fr;  
     grid-template-areas:
     "item40"
