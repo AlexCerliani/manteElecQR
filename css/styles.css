@@ -130,6 +130,13 @@ tr.even {
     width: 75%; 
 }
 
+#opcionesDropdown {
+    width: 100%; /* Deja que el ancho sea igual al contenedor */
+    max-width: 75%; /* Pero no se extienda más allá del 75% */
+    height: 6rem !important;
+}
+
+
 #filtrarButton {
     font-size: 1.5rem;
     width: 75%;
