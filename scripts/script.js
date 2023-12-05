@@ -317,7 +317,7 @@ function llenarDesdeQR() {
 }
 
 // Llamada inicial
-//llenarDesdeQR();
+llenarDesdeQR();
 // ================================================================== 
 
 
