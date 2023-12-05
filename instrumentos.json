@@ -1,0 +1,2292 @@
+{
+  "PDT_LIM307": {
+    "Indice": 1,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-250.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "10.5",
+    "Nivel_Alto_Alarma": "45.0",
+    "Sector": "L3A"
+  },
+  "PDT_LIM308": {
+    "Indice": 2,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-250.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "4.3",
+    "Nivel_Alto_Alarma": "45.0",
+    "Sector": "L3A"
+  },
+  "LT_BH301_04": {
+    "Indice": 3,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "65.0",
+    "Nivel_Alto_Alarma": "102.0",
+    "Sector": "L3A"
+  },
+  "LT_BH302_04": {
+    "Indice": 4,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "15.0",
+    "Nivel_Alto_Alarma": "50.0",
+    "Sector": "L3A"
+  },
+  "MT_CYC304": {
+    "Indice": 5,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "MT_CYC355": {
+    "Indice": 6,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_CYC304": {
+    "Indice": 7,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-350.0",
+    "Max_Escala": "350.0",
+    "Nivel_Bajo_Alarma": "-100.0",
+    "Nivel_Alto_Alarma": "100.0",
+    "Sector": "L3A"
+  },
+  "PDT_CYC355": {
+    "Indice": 8,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-350.0",
+    "Max_Escala": "350.0",
+    "Nivel_Bajo_Alarma": "-100.0",
+    "Nivel_Alto_Alarma": "100.0",
+    "Sector": "L3A"
+  },
+  "PT_CYC304": {
+    "Indice": 9,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-1000.0",
+    "Max_Escala": "1000.0",
+    "Nivel_Bajo_Alarma": "-300.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PT_CYC355": {
+    "Indice": 10,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-1000.0",
+    "Max_Escala": "1000.0",
+    "Nivel_Bajo_Alarma": "-300.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "TT_BH301_01": {
+    "Indice": 11,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "50.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "45.0",
+    "Sector": "L3A"
+  },
+  "TT_BH301_05": {
+    "Indice": 12,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "55.0",
+    "Nivel_Alto_Alarma": "82.0",
+    "Sector": "L3A"
+  },
+  "TT_BH302_01": {
+    "Indice": 13,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "50.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "35.0",
+    "Sector": "L3A"
+  },
+  "TT_BH302_05": {
+    "Indice": 14,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "55.0",
+    "Nivel_Alto_Alarma": "82.0",
+    "Sector": "L3A"
+  },
+  "ZS_NOR304_A1": {
+    "Indice": 15,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3A"
+  },
+  "ZS_NOR304_A2": {
+    "Indice": 16,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3A"
+  },
+  "ZS_NOR304_B1": {
+    "Indice": 18,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3A"
+  },
+  "WT_PUL301": {
+    "Indice": 19,
+    "Min_Analog": "6881.0",
+    "Max_Analog": "30771.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "50.0",
+    "Sector": "L3A"
+  },
+  "WT_PUL303": {
+    "Indice": 20,
+    "Min_Analog": "7053.0",
+    "Max_Analog": "29647.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "10.0",
+    "Nivel_Alto_Alarma": "45.0",
+    "Sector": "L3A"
+  },
+  "WT_ENF301": {
+    "Indice": 31,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3A"
+  },
+  "WT_SEC305": {
+    "Indice": 22,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "40.0",
+    "Sector": "L3A"
+  },
+  "PT_CAL302": {
+    "Indice": 23,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "2.0",
+    "Nivel_Bajo_Alarma": "0.25",
+    "Nivel_Alto_Alarma": "1.0",
+    "Sector": "L3A"
+  },
+  "TT_ENF301_09": {
+    "Indice": 24,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "40.0",
+    "Nivel_Alto_Alarma": "65.0",
+    "Sector": "L3A"
+  },
+  "TT_BH301_02": {
+    "Indice": 25,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "90.0",
+    "Sector": "L3A"
+  },
+  "TT_BH301_03": {
+    "Indice": 26,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "TT_BH301_04": {
+    "Indice": 27,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "TT_BH302_02": {
+    "Indice": 28,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "95.0",
+    "Sector": "L3A"
+  },
+  "TT_BH302_03": {
+    "Indice": 29,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "50.0",
+    "Nivel_Alto_Alarma": "100.0",
+    "Sector": "L3A"
+  },
+  "TT_BH302_04": {
+    "Indice": 30,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "64.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "TT_CAL302_01": {
+    "Indice": 31,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3A"
+  },
+  "TT_CAL302_02": {
+    "Indice": 32,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3A"
+  },
+  "TT_LAM316": {
+    "Indice": 33,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "55.0",
+    "Nivel_Alto_Alarma": "70.0",
+    "Sector": "L3A"
+  },
+  "TT1_MIL307": {
+    "Indice": 34,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "75.0",
+    "Sector": "L3A"
+  },
+  "TT2_MIL307": {
+    "Indice": 35,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "70.0",
+    "Sector": "L3A"
+  },
+  "TT1_MIL308": {
+    "Indice": 36,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "78.0",
+    "Sector": "L3A"
+  },
+  "TT2_MIL308": {
+    "Indice": 37,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "65.0",
+    "Sector": "L3A"
+  },
+  "WT_ENF303": {
+    "Indice": 38,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "40.0",
+    "Sector": "L3A"
+  },
+  "FQT_R502_06A": {
+    "Indice": 40,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "20.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "FQT_R502_03": {
+    "Indice": 41,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "60.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "FQT_EXP_L3A": {
+    "Indice": 45,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "FQT_BH_L3A": {
+    "Indice": 46,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "25.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_FAN641": {
+    "Indice": 47,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_FAN651": {
+    "Indice": 48,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_FAN661": {
+    "Indice": 49,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_FAN642": {
+    "Indice": 50,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "750.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_FAN652": {
+    "Indice": 51,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "750.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_FAN662": {
+    "Indice": 52,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "750.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "TT_FIM640": {
+    "Indice": 53,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "65.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "TT_FIM650": {
+    "Indice": 54,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "65.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "TT_FIM660": {
+    "Indice": 55,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "65.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "PT_DMP642": {
+    "Indice": 56,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-30.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PT_DMP652": {
+    "Indice": 57,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-30.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PT_DMP662": {
+    "Indice": 58,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-30.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "TT_FIM640_2": {
+    "Indice": 59,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.77",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "TT_FIM650_2": {
+    "Indice": 60,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.77",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "TT_FIM660_2": {
+    "Indice": 61,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.77",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "TT_CAL305": {
+    "Indice": 63,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.77",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "HT_FAN642": {
+    "Indice": 64,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "5.0",
+    "Nivel_Alto_Alarma": "25.0",
+    "Sector": "L3A"
+  },
+  "HT_FAN652": {
+    "Indice": 65,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "15.0",
+    "Nivel_Alto_Alarma": "25.0",
+    "Sector": "L3A"
+  },
+  "HT_FAN662": {
+    "Indice": 66,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "5.0",
+    "Nivel_Alto_Alarma": "25.0",
+    "Sector": "L3A"
+  },
+  "TT_FAN642": {
+    "Indice": 67,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "TT_FAN652": {
+    "Indice": 68,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "TT_FAN662": {
+    "Indice": 69,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "TT_FAN640": {
+    "Indice": 70,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "90.0",
+    "Sector": "L3A"
+  },
+  "HT_FAN640": {
+    "Indice": 71,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "10.0",
+    "Nivel_Alto_Alarma": "33.0",
+    "Sector": "L3A"
+  },
+  "TT_FAN650": {
+    "Indice": 72,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "90.0",
+    "Sector": "L3A"
+  },
+  "HT_FAN650": {
+    "Indice": 73,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "28.0",
+    "Nivel_Alto_Alarma": "33.0",
+    "Sector": "L3A"
+  },
+  "TT_FAN660": {
+    "Indice": 74,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "HT_FAN660": {
+    "Indice": 75,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "23.0",
+    "Nivel_Alto_Alarma": "33.0",
+    "Sector": "L3A"
+  },
+  "LT_JDH640": {
+    "Indice": 76,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "15.0",
+    "Nivel_Alto_Alarma": "50.0",
+    "Sector": "L3A"
+  },
+  "LT_JDH650": {
+    "Indice": 77,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "50.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "LT_JDH660": {
+    "Indice": 78,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "65.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3A"
+  },
+  "PDT_JDH640": {
+    "Indice": 79,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_JDH650": {
+    "Indice": 80,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_JDH660": {
+    "Indice": 81,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PT_JDH640": {
+    "Indice": 82,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-30.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PT_JDH650": {
+    "Indice": 83,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-30.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PT_JDH660": {
+    "Indice": 84,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-30.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "2.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "TT_JDH640_1": {
+    "Indice": 85,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "95.0",
+    "Nivel_Alto_Alarma": "150.0",
+    "Sector": "L3A"
+  },
+  "TT_JDH640_2": {
+    "Indice": 86,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "70.0",
+    "Nivel_Alto_Alarma": "90.0",
+    "Sector": "L3A"
+  },
+  "TT_JDH650_1": {
+    "Indice": 87,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "95.0",
+    "Nivel_Alto_Alarma": "150.0",
+    "Sector": "L3A"
+  },
+  "TT_JDH650_2": {
+    "Indice": 88,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "70.0",
+    "Nivel_Alto_Alarma": "90.0",
+    "Sector": "L3A"
+  },
+  "TT_JDH660_1": {
+    "Indice": 89,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "95.0",
+    "Nivel_Alto_Alarma": "150.0",
+    "Sector": "L3A"
+  },
+  "TT_JDH660_2": {
+    "Indice": 90,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.777",
+    "Nivel_Bajo_Alarma": "70.0",
+    "Nivel_Alto_Alarma": "90.0",
+    "Sector": "L3A"
+  },
+  "PDT_FIM640": {
+    "Indice": 91,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "2.0",
+    "Nivel_Alto_Alarma": "6.0",
+    "Sector": "L3A"
+  },
+  "PDT_FIM650": {
+    "Indice": 92,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "2.0",
+    "Nivel_Alto_Alarma": "6.0",
+    "Sector": "L3A"
+  },
+  "PDT_FIM660": {
+    "Indice": 93,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "2.0",
+    "Nivel_Alto_Alarma": "6.0",
+    "Sector": "L3A"
+  },
+  "HT_ASP402": {
+    "Indice": 94,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "20.0",
+    "Nivel_Alto_Alarma": "36.6666",
+    "Sector": "L3A"
+  },
+  "HT_ASP404": {
+    "Indice": 95,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "HT_ASP406": {
+    "Indice": 96,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "TT_ASP402": {
+    "Indice": 97,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.0",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "80.0",
+    "Sector": "L3A"
+  },
+  "TT_ASP404": {
+    "Indice": 98,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.0",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "80.0",
+    "Sector": "L3A"
+  },
+  "TT_ASP406": {
+    "Indice": 99,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "277.0",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "80.0",
+    "Sector": "L3A"
+  },
+  "PT_ASP402": {
+    "Indice": 100,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-30.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PT_ASP404": {
+    "Indice": 101,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-30.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PT_ASP406": {
+    "Indice": 102,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-30.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_ASP402": {
+    "Indice": 104,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_ASP404": {
+    "Indice": 105,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "PDT_ASP406": {
+    "Indice": 106,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "25.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "TT1_MIL306": {
+    "Indice": 107,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "200.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "TT2_MIL306": {
+    "Indice": 108,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "200.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3A"
+  },
+  "LT_SIL306": {
+    "Indice": 109,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "77.0",
+    "Sector": "L3A"
+  },
+  "NIR_C310_Proteina": {
+    "Indice": 110,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3A"
+  },
+  "NIR_C310_Humedad": {
+    "Indice": 111,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3A"
+  },
+  "NIR_C310_Grasa": {
+    "Indice": 112,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3A"
+  },
+  "NIR_C310_Fibra": {
+    "Indice": 113,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3A"
+  },
+  "LT_TLV_303": {
+    "Indice": 114,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "50.0",
+    "Sector": "L3A"
+  },
+  "TT_CCMPREP3_AMB": {
+    "Indice": 115,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "200.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "32.0",
+    "Sector": "L3A"
+  },
+  "PDT_LIM305": {
+    "Indice": 1,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-250.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "45.0",
+    "Sector": "L3B"
+  },
+  "PDT_LIM306": {
+    "Indice": 2,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-250.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "45.0",
+    "Sector": "L3B"
+  },
+  "LT_BH303_04": {
+    "Indice": 3,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "65.0",
+    "Nivel_Alto_Alarma": "105.0",
+    "Sector": "L3B"
+  },
+  "LT_BH304_04": {
+    "Indice": 4,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "10.0",
+    "Nivel_Alto_Alarma": "40.0",
+    "Sector": "L3B"
+  },
+  "MT_CYC306": {
+    "Indice": 5,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "-50.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3B"
+  },
+  "MT_CYC356": {
+    "Indice": 6,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "50.0",
+    "Sector": "L3B"
+  },
+  "PDT_CYC306": {
+    "Indice": 7,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-250.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "-100.0",
+    "Nivel_Alto_Alarma": "100.0",
+    "Sector": "L3B"
+  },
+  "PDT_CYC356": {
+    "Indice": 8,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-250.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "-100.0",
+    "Nivel_Alto_Alarma": "100.0",
+    "Sector": "L3B"
+  },
+  "PT_CYC306": {
+    "Indice": 9,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-1000.0",
+    "Max_Escala": "1000.0",
+    "Nivel_Bajo_Alarma": "-300.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "PT_CYC356": {
+    "Indice": 10,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-1000.0",
+    "Max_Escala": "1000.0",
+    "Nivel_Bajo_Alarma": "-300.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "TT_BH303_01": {
+    "Indice": 11,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "50.0",
+    "Nivel_Bajo_Alarma": "5.0",
+    "Nivel_Alto_Alarma": "40.0",
+    "Sector": "L3B"
+  },
+  "TT_BH303_05": {
+    "Indice": 12,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "55.0",
+    "Nivel_Alto_Alarma": "82.0",
+    "Sector": "L3B"
+  },
+  "TT_BH304_01": {
+    "Indice": 13,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "50.0",
+    "Nivel_Bajo_Alarma": "5.0",
+    "Nivel_Alto_Alarma": "35.0",
+    "Sector": "L3B"
+  },
+  "TT_BH304_05": {
+    "Indice": 14,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "55.0",
+    "Nivel_Alto_Alarma": "82.0",
+    "Sector": "L3B"
+  },
+  "ZS_NOR303_A1": {
+    "Indice": 15,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "0.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3B"
+  },
+  "ZS_NOR303_A2": {
+    "Indice": 16,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "750.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3B"
+  },
+  "ZS_NOR303_B1": {
+    "Indice": 18,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3B"
+  },
+  "WT_PUL302": {
+    "Indice": 19,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "10.0",
+    "Nivel_Alto_Alarma": "50.0",
+    "Sector": "L3B"
+  },
+  "WT_PUL304": {
+    "Indice": 20,
+    "Min_Analog": "7022.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "20.0",
+    "Nivel_Alto_Alarma": "30.0",
+    "Sector": "L3B"
+  },
+  "WT_ENF302": {
+    "Indice": 31,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "55.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3B"
+  },
+  "WT_SEC306": {
+    "Indice": 22,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "35.0",
+    "Sector": "L3B"
+  },
+  "PT_CAL304": {
+    "Indice": 23,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "2.0",
+    "Nivel_Bajo_Alarma": "0.2",
+    "Nivel_Alto_Alarma": "0.87",
+    "Sector": "L3B"
+  },
+  "TT1_MIL311": {
+    "Indice": 24,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3B"
+  },
+  "TT2_MIL311": {
+    "Indice": 25,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3B"
+  },
+  "TT1_MIL312": {
+    "Indice": 26,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "95.0",
+    "Sector": "L3B"
+  },
+  "TT2_MIL312": {
+    "Indice": 27,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "80.0",
+    "Sector": "L3B"
+  },
+  "TT_ENF302_09": {
+    "Indice": 28,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "48.0",
+    "Nivel_Alto_Alarma": "59.0",
+    "Sector": "L3B"
+  },
+  "TT_BH303_02": {
+    "Indice": 29,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "65.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3B"
+  },
+  "TT_BH303_03": {
+    "Indice": 30,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3B"
+  },
+  "TT_BH303_04": {
+    "Indice": 31,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "55.0",
+    "Nivel_Alto_Alarma": "85.0",
+    "Sector": "L3B"
+  },
+  "TT_BH304_02": {
+    "Indice": 32,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "100.0",
+    "Sector": "L3B"
+  },
+  "TT_BH304_03": {
+    "Indice": 33,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "95.0",
+    "Sector": "L3B"
+  },
+  "TT_BH304_04": {
+    "Indice": 34,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "63.0",
+    "Nivel_Alto_Alarma": "82.0",
+    "Sector": "L3B"
+  },
+  "TT_CAL304_01": {
+    "Indice": 35,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3B"
+  },
+  "TT_CAL304_02": {
+    "Indice": 36,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3B"
+  },
+  "TT_LAM333": {
+    "Indice": 37,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "59.0",
+    "Nivel_Alto_Alarma": "80.0",
+    "Sector": "L3B"
+  },
+  "LT_V502": {
+    "Indice": 38,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "15.0",
+    "Nivel_Alto_Alarma": "80.0",
+    "Sector": "L3B"
+  },
+  "TT_R507": {
+    "Indice": 39,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "70.0",
+    "Nivel_Alto_Alarma": "98.0",
+    "Sector": "L3B"
+  },
+  "WT_ENF304_FIL": {
+    "Indice": 40,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "35.0",
+    "Sector": "L3B"
+  },
+  "FQT_R502_06B": {
+    "Indice": 42,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "20.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "FQT_R502_04": {
+    "Indice": 43,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "60.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "ENF304": {
+    "Indice": 109,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "SEC306": {
+    "Indice": 110,
+    "Min_Analog": "0.0",
+    "Max_Analog": "1000.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "ENF302": {
+    "Indice": 111,
+    "Min_Analog": "0.0",
+    "Max_Analog": "1000.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "8.0",
+    "Sector": "L3B"
+  },
+  "FQT_EXP_L3B": {
+    "Indice": 112,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "FQT_BH_L3B": {
+    "Indice": 113,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "25.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "TT1_MIL310": {
+    "Indice": 115,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "LT_SIL305": {
+    "Indice": 116,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "77.0",
+    "Sector": "L3B"
+  },
+  "XT_LAM332": {
+    "Indice": 117,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "1.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "NIR_C311_Proteina": {
+    "Indice": 118,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3B"
+  },
+  "NIR_C311_Humedad": {
+    "Indice": 119,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3B"
+  },
+  "NIR_C311_Grasa": {
+    "Indice": 120,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3B"
+  },
+  "NIR_C311_Fibra": {
+    "Indice": 121,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "110.0",
+    "Sector": "L3B"
+  },
+  "TT_ROCIO": {
+    "Indice": 122,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-20.0",
+    "Max_Escala": "40.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "IT_COM501": {
+    "Indice": 123,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "LT_TLV_301": {
+    "Indice": 124,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3B"
+  },
+  "LT_SIL301": {
+    "Indice": 0,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "90.0",
+    "Sector": "L3AB"
+  },
+  "LT_SIL302": {
+    "Indice": 1,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "55.0",
+    "Nivel_Alto_Alarma": "90.0",
+    "Sector": "L3AB"
+  },
+  "LT_TK301_FILTRADA": {
+    "Indice": 2,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "10.0",
+    "Nivel_Alto_Alarma": "80.0",
+    "Sector": "L3AB"
+  },
+  "LT_TK302_FILTRADA": {
+    "Indice": 3,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "8.0",
+    "Nivel_Alto_Alarma": "80.0",
+    "Sector": "L3AB"
+  },
+  "LT_TK303_FILTRADA": {
+    "Indice": 4,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "15.0",
+    "Nivel_Alto_Alarma": "99.0",
+    "Sector": "L3AB"
+  },
+  "LT_TK304_FILTRADA": {
+    "Indice": 5,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "10.0",
+    "Nivel_Alto_Alarma": "90.0",
+    "Sector": "L3AB"
+  },
+  "LT_TK305_FILTRADA": {
+    "Indice": 6,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "10.0",
+    "Nivel_Alto_Alarma": "90.0",
+    "Sector": "L3AB"
+  },
+  "VSH_R504_01": {
+    "Indice": 7,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "20.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "4.95",
+    "Sector": "L3AB"
+  },
+  "VSH_R504_02": {
+    "Indice": 8,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "20.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "4.95",
+    "Sector": "L3AB"
+  },
+  "VSH_R504_03": {
+    "Indice": 9,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "20.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "4.95",
+    "Sector": "L3AB"
+  },
+  "VSH_R504_04": {
+    "Indice": 10,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "20.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "4.95",
+    "Sector": "L3AB"
+  },
+  "FT_R504_01_FILTRADA": {
+    "Indice": 11,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "13.3",
+    "Max_Escala": "52.4",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "11000.0",
+    "Sector": "L3AB"
+  },
+  "LT_R504_01": {
+    "Indice": 12,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "61.0",
+    "Nivel_Alto_Alarma": "93.0",
+    "Sector": "L3AB"
+  },
+  "TT_PEL681": {
+    "Indice": 13,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "50.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "TT_PEL682": {
+    "Indice": 14,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "50.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "TT_PEL683": {
+    "Indice": 15,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "50.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "PDT_ASP464": {
+    "Indice": 16,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "750.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "PT_PEL681": {
+    "Indice": 17,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "6.0",
+    "Nivel_Bajo_Alarma": "1.5",
+    "Nivel_Alto_Alarma": "2.5",
+    "Sector": "L3AB"
+  },
+  "PT_PEL682": {
+    "Indice": 18,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "6.0",
+    "Nivel_Bajo_Alarma": "1.5",
+    "Nivel_Alto_Alarma": "2.5",
+    "Sector": "L3AB"
+  },
+  "PT_PEL683": {
+    "Indice": 19,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "6.0",
+    "Nivel_Bajo_Alarma": "1.5",
+    "Nivel_Alto_Alarma": "2.5",
+    "Sector": "L3AB"
+  },
+  "TT_PEL684": {
+    "Indice": 21,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "50.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "PDT_ASP469": {
+    "Indice": 22,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "750.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "PT_PEL684": {
+    "Indice": 23,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "6.0",
+    "Nivel_Bajo_Alarma": "1.5",
+    "Nivel_Alto_Alarma": "2.5",
+    "Sector": "L3AB"
+  },
+  "PT_PEL685": {
+    "Indice": 24,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "6.0",
+    "Nivel_Bajo_Alarma": "1.5",
+    "Nivel_Alto_Alarma": "2.5",
+    "Sector": "L3AB"
+  },
+  "PT_AI_L3": {
+    "Indice": 25,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "LT_TK680": {
+    "Indice": 26,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "30.0",
+    "Nivel_Alto_Alarma": "70.0",
+    "Sector": "L3AB"
+  },
+  "XT_TAC515": {
+    "Indice": 32,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "2.0",
+    "Nivel_Alto_Alarma": "5.0",
+    "Sector": "L3AB"
+  },
+  "PDT_FIM231": {
+    "Indice": 33,
+    "Min_Analog": "0.0",
+    "Max_Analog": "30840.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "50.0",
+    "Nivel_Bajo_Alarma": "0.17",
+    "Nivel_Alto_Alarma": "8.0",
+    "Sector": "L3AB"
+  },
+  "PDT_ASP414": {
+    "Indice": 34,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "HT_ASP414": {
+    "Indice": 35,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "TT_ASP414": {
+    "Indice": 36,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "200.0",
+    "Nivel_Bajo_Alarma": "60.0",
+    "Nivel_Alto_Alarma": "80.0",
+    "Sector": "L3AB"
+  },
+  "PT_ASP414": {
+    "Indice": 37,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-30.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "HT_PECASO": {
+    "Indice": 38,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "30.0",
+    "Nivel_Bajo_Alarma": "12.0",
+    "Nivel_Alto_Alarma": "14.0",
+    "Sector": "L3AB"
+  },
+  "TT_PECASO": {
+    "Indice": 39,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "60.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "35.0",
+    "Sector": "L3AB"
+  },
+  "PDT_FIM673": {
+    "Indice": 40,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "2.0",
+    "Nivel_Alto_Alarma": "3.0",
+    "Sector": "L3AB"
+  },
+  "PDT_FIM672": {
+    "Indice": 41,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "10.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "3.0",
+    "Sector": "L3AB"
+  },
+  "TT_MIL671": {
+    "Indice": 42,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "50.0",
+    "Sector": "L3AB"
+  },
+  "TT_MIL672": {
+    "Indice": 43,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "50.0",
+    "Sector": "L3AB"
+  },
+  "TT_MIL673": {
+    "Indice": 44,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "50.0",
+    "Sector": "L3AB"
+  },
+  "TT_FIM671": {
+    "Indice": 45,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "45.0",
+    "Sector": "L3AB"
+  },
+  "LT_SIL001": {
+    "Indice": 46,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "10.0",
+    "Nivel_Alto_Alarma": "40.0",
+    "Sector": "L3AB"
+  },
+  "PDT_ASP465": {
+    "Indice": 47,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "750.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "IT_COM502": {
+    "Indice": 48,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "150.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "LT_TLV_1": {
+    "Indice": 50,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "10.0",
+    "Sector": "L3AB"
+  },
+  "LT_TLV_2": {
+    "Indice": 51,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "10.0",
+    "Sector": "L3AB"
+  },
+  "TTC1_MIL301": {
+    "Indice": 52,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-50.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3AB"
+  },
+  "TTC1_MIL302": {
+    "Indice": 57,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-50.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3AB"
+  },
+  "LT_TLV_PPAL": {
+    "Indice": 54,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "50.0",
+    "Sector": "L3AB"
+  },
+  "TTRI_MIL301": {
+    "Indice": 55,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-50.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3AB"
+  },
+  "TTRD_MIL301": {
+    "Indice": 56,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-50.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3AB"
+  },
+  "TTC2_MIL302": {
+    "Indice": 58,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-50.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3AB"
+  },
+  "TTRI_MIL302": {
+    "Indice": 60,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-50.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3AB"
+  },
+  "TTRD_MIL302": {
+    "Indice": 61,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "-50.0",
+    "Max_Escala": "250.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "60.0",
+    "Sector": "L3AB"
+  },
+  "HT_PEL681": {
+    "Indice": 70,
+    "Min_Analog": "0.0",
+    "Max_Analog": "30840.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "HT_PEL682": {
+    "Indice": 71,
+    "Min_Analog": "0.0",
+    "Max_Analog": "30840.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "HT_PEL683": {
+    "Indice": 72,
+    "Min_Analog": "0.0",
+    "Max_Analog": "30840.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "HT_PEL684": {
+    "Indice": 73,
+    "Min_Analog": "0.0",
+    "Max_Analog": "30840.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "HT_PEL685": {
+    "Indice": 74,
+    "Min_Analog": "0.0",
+    "Max_Analog": "30840.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "PIT_680": {
+    "Indice": 75,
+    "Min_Analog": "0.0",
+    "Max_Analog": "30840.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "6.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "PT_FIM330": {
+    "Indice": 80,
+    "Min_Analog": "6240.0",
+    "Max_Analog": "31208.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "160.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "FT_681": {
+    "Indice": 90,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "FT_682": {
+    "Indice": 91,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "FT_683": {
+    "Indice": 92,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "FT_684": {
+    "Indice": 93,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  },
+  "FT_685": {
+    "Indice": 94,
+    "Min_Analog": "0.0",
+    "Max_Analog": "100.0",
+    "Min_Escala": "0.0",
+    "Max_Escala": "100.0",
+    "Nivel_Bajo_Alarma": "0.0",
+    "Nivel_Alto_Alarma": "0.0",
+    "Sector": "L3AB"
+  }
+}

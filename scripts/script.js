@@ -300,6 +300,8 @@ const datosCalibracion = document.getElementById('datosCalibracion');
 const datosEquipo = document.getElementById('datosEquipo');
 const datosSAP = document.getElementById('datosSAP');
 
+
+
 function obtenerParametroDeURL(nombre) {
     const urlSearchParams = new URLSearchParams(window.location.search);
     return urlSearchParams.get(nombre);
@@ -315,7 +317,7 @@ function llenarDesdeQR() {
 }
 
 // Llamada inicial
-llenarDesdeQR();
+//llenarDesdeQR();
 // ================================================================== 
 
 
@@ -420,7 +422,6 @@ function llenarDesdeDropDown() {
     console.log(equipo);
     infoTag(equipo);
 }
-
 // ==================================================================
 
 
@@ -433,16 +434,15 @@ function llenarDesdeDropDown() {
 function infoTag(equipo){
     /* Primero debo vaciar los datos, ya que sino se acumulan si el usuario utiliza el filtro mas de 1 vez */
     datosPLC.innerHTML = `<br><h2>Datos en PLC</h2><br>`;
-    datosCalibracion.innerHTML = `<br><h2>Datos de  Calibración</h2><br>`;
+    datosCalibracion.innerHTML = `<br><h2>Datos de Calibración</h2><br>`;
     datosEquipo.innerHTML = `<br><h2>Datos del Equipo</h2><br>`;
-    datosSAP.innerHTML = `<br><h2>Datos SAP</h2><br>`;
-
+    datosSAP.innerHTML = `<br><h2>Datos SAP</h2><br>`; 
     let match = false;
     if (equipo){
         for (const tag in instrumentos) {
             if (equipo === tag) {               
                 match = true;    
-                appDiv.innerHTML = `<h1>Información del Equipo ${equipo}</h1>`;                            
+                appDiv.innerHTML = `<h1>Información del Equipo: ${equipo}</h1>`;                            
                 if (instrumentos.hasOwnProperty(tag)) {
                     const instrumento = instrumentos[tag];
                     for (const parametro in instrumento){
@@ -450,7 +450,6 @@ function infoTag(equipo){
                         datosCalibracion.innerHTML += `<br><td>${parametro}: ${instrumento[parametro]}</td></br>`;
                         datosEquipo.innerHTML += `<br><td>${parametro}: ${instrumento[parametro]}</td></br>`;
                         datosSAP.innerHTML += `<br><td>${parametro}: ${instrumento[parametro]}</td></br>`;
-
                     }
                 }
             }        
@@ -477,7 +476,7 @@ function infoTag(equipo){
 
         datosEquipo.style.backgroundColor = 'rgba(222,222,222,255)'; 
         datosEquipo.style.textAlign = 'center';
-        datosEquipo.style.justifyContent = 'center';q
+        datosEquipo.style.justifyContent = 'center'
         datosEquipo.style.margin = '0px';   
         datosEquipo.style.border = '2px solid rgba(0,0,0,255)';
         datosEquipo.style.padding = '10px';
@@ -493,19 +492,51 @@ function infoTag(equipo){
         console.log("Equipo es: " + equipo)
     }
 }
-
-
-
-
-
-
 // ===================================================================================== 
 
+function formatoGridInfo(){
+    /*Chequear de hacerlo de otra forma, esto es muy poco practico*/
+    datosPLC.style.backgroundColor = 'rgba(222,222,222,255)'; 
+    datosPLC.style.textAlign = 'center';
+    datosPLC.style.justifyContent = 'center';
+    datosPLC.style.margin = '0px';   
+    datosPLC.style.border = '2px solid rgba(0,0,0,255)';
+    datosPLC.style.padding = '10px';
 
+    datosCalibracion.style.backgroundColor = 'rgba(222,222,222,255)'; 
+    datosCalibracion.style.textAlign = 'center';
+    datosCalibracion.style.justifyContent = 'center';
+    datosCalibracion.style.margin = '0px';   
+    datosCalibracion.style.border = '2px solid rgba(0,0,0,255)';
+    datosCalibracion.style.padding = '10px';
 
+    datosEquipo.style.backgroundColor = 'rgba(222,222,222,255)'; 
+    datosEquipo.style.textAlign = 'center';
+    datosEquipo.style.justifyContent = 'center'
+    datosEquipo.style.margin = '0px';   
+    datosEquipo.style.border = '2px solid rgba(0,0,0,255)';
+    datosEquipo.style.padding = '10px';
 
+    datosSAP.style.backgroundColor = 'rgba(222,222,222,255)'; 
+    datosSAP.style.textAlign = 'center';
+    datosSAP.style.justifyContent = 'center';
+    datosSAP.style.margin = '0px';   
+    datosSAP.style.border = '2px solid rgba(0,0,0,255)';
+    datosSAP.style.padding = '10px';
+}
 
+formatoGridInfo;
 
+/*
+const instrumentosJSON = JSON.stringify(instrumentos, null, 2);
+// Crea un objeto Blob con el contenido JSON
+const blob = new Blob([instrumentosJSON], { type: 'application/json' });
+// Crea un enlace de descarga y simula un clic para descargar el archivo
+const a = document.createElement('a');
+a.href = URL.createObjectURL(blob);
+a.download = 'instrumentos.json';
+a.click();
+*/
 
 
 
